@@ -5,7 +5,19 @@ public class MyUniversityModel {
 
     private Integer Grade;
     private Integer department;
+
+    public MyUniversityModel() {
+    }
+
+    public MyUniversityModel(Integer Grade, Integer department, Integer term) {
+        this.Grade = Grade;
+        this.department = department;
+        this.term = term;
+    }
+
     private Integer term;
+
+
 
     public Integer getGrade() {
         return Grade;
